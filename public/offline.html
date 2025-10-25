@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>غير متصل بالإنترنت | سينماتك</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: linear-gradient(135deg, #171717 0%, #262626 100%);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 500px;
+    }
+    .icon {
+      font-size: 5rem;
+      margin-bottom: 2rem;
+      opacity: 0.5;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #dc2626;
+    }
+    p {
+      font-size: 1.125rem;
+      color: #a3a3a3;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+    button {
+      background: #dc2626;
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    button:hover {
+      background: #b91c1c;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="icon">📡</div>
+    <h1>غير متصل بالإنترنت</h1>
+    <p>يبدو أنك غير متصل بالإنترنت حالياً. يرجى التحقق من اتصالك بالشبكة والمحاولة مرة أخرى.</p>
+    <button onclick="window.location.reload()">إعادة المحاولة</button>
+  </div>
+</body>
+</html>
